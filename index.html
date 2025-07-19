@@ -105,6 +105,7 @@
       justify-content: center;
       align-items: center;
       padding: 20px;
+      text-align: center;
     }
 
     .container {
@@ -115,19 +116,25 @@
       padding: 40px 20px;
       max-width: 420px;
       width: 100%;
-      text-align: center;
     }
 
     .container h1 {
       font-size: 2rem;
       margin-bottom: 15px;
-      color: var(--primary-color);
+      color: var(--primary-color); /* heading color */
     }
 
     .container p {
       font-size: 1rem;
       margin-bottom: 25px;
       line-height: 1.6;
+    }
+
+    .launch-note {
+      font-size: 1rem;
+      font-weight: bold;
+      color: var(--primary-color); /* theme color */
+      margin-bottom: 20px;
     }
 
     .location {
@@ -147,7 +154,8 @@
         font-size: 2.4rem;
       }
 
-      .container p {
+      .container p,
+      .launch-note {
         font-size: 1.15rem;
       }
 
@@ -162,6 +170,7 @@
     <h1>🚀 WebAppNexa</h1>
     <p>We're working hard to launch our full website.<br>
     Stay tuned for powerful web solutions, SEO, and more!</p>
+    <div class="launch-note">🎉 Full Website Launching on Monday!</div>
     <div class="location">
       📍 Ishwar Nagar, Digha Gaon Station, Navi Mumbai – 400708<br>
       📍 Gyanpur, Bhadohi, Uttar Pradesh – 221304
